@@ -1,6 +1,6 @@
 from zipfile import ZipFile
 
-# Load all passwords from the Ashley-Madison leak
+# Load all passwords from leak
 with open('img/Ashley-Madison.txt', 'r', encoding='latin-1') as f:
     passwords = [line.rstrip('\n') for line in f]
 
